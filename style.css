@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    animation: fadeIn 1.5s ease-in;
+}
+
+
+header {
+    background-color: #eabade;
+    color: rgb(25, 24, 24);
+    text-align: center;
+    padding: 50px 20px;
+    animation: slideDown 1s ease-out;
+}
+
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+header p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #e9bcd9;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.skills li {
+    display: inline-block;
+    background-color: #add8e6;
+    color: #1a191a;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.skills li:hover {
+    background-color: #87cefa;
+    transform: scale(1.1);
+}
+
+.project-card {
+    background-color: #e0ffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #3d3b3c;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.project-card h3 {
+    margin-top: 0;
+}
+.project-card p {
+    font-size: 15px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+.contact .btn {
+    background-color: #ff69b4;
+    color: rgb(15, 14, 14);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.contact .btn:hover {
+    background-color: #ff1493;
+    transform: translateY(-3px);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f0ddf2;
+    color: rgb(26, 25, 25);
+    margin-top: 40px;
+    font-size: 14px;
+}
